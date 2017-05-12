@@ -1,0 +1,12 @@
+body {
+    background-image: url(assets/images/starwars.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+#header {
+
+	text-align: center;
+	font-size: 50px;
