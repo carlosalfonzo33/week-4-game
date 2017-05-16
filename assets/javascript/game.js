@@ -23,7 +23,6 @@ $(document).ready(function() {
 			  }
 			  if(!found)numbers[numbers.length]=randomnumber;
 			}
-		console.log(numbers);		
 
 		for (i = 0; i < numbers.length; i++) {
 			var imageCrystal = $('<img>');
