@@ -65,7 +65,22 @@ h1{
 
 .crystalImage {
 	height: 111px;
-	margin-left: 10px
+	margin-left: 10px;
+	cursor: pointer;
+
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.crystalImage:hover {
+    animation: pulse 1s infinite;
 }
 
 .crystalImage:firstchild {
