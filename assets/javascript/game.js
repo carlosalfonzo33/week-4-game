@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
-	crystals = ['assets/images/ruby-icon.png','assets/images/sapphire.png','assets/images/topaz.png','assets/images/emerald.png'];
+	/* array of my crystal images for game play */
+
+	crystals = ['assets/images/diamond1.png','assets/images/diamond3.png','assets/images/diamond6.png','assets/images/diamond5.png'];
+
+	/* sets counters to 0 */
 
 	var counter = 0;
 	var wins = 0;
@@ -24,6 +28,8 @@ $(document).ready(function() {
 			  if(!found)numbers[numbers.length]=randomnumber;
 			}
 
+			/* adds the images to div, src, alt and class */
+
 		for (i = 0; i < numbers.length; i++) {
 			var imageCrystal = $('<img>');
 			imageCrystal.attr('data-num', numbers[i]);
@@ -38,6 +44,8 @@ $(document).ready(function() {
 
 		counter = 0;
 		$('#yourScore').text(counter);
+
+		/* Returns a random number between min (inclusive) and max (exclusive) */ 
 
 		function randomIntFromInterval(min,max){
 		   	return Math.floor(Math.random()*(max-min+1)+min);
