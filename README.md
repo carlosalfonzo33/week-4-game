@@ -15,6 +15,8 @@ The game restarts whenever the player wins or loses.
 When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. The user's score (and score counter) will reset to zero.
 The application shows the number of games the player wins and loses.
 
+<img width="1625" alt="screen shot 2017-10-01 at 2 14 09 pm" src="https://user-images.githubusercontent.com/25913749/31059112-fb22fd46-a6b3-11e7-8124-da10d0670974.png">
+
 
 
 
